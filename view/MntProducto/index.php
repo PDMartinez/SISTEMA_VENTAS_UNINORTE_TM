@@ -698,7 +698,9 @@
         <div class="br-section-wrapper">
           <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento de Productos</h6>
           <!-- <p class="mg-b-25 mg-lg-b-50">Searching, ordering and paging goodness will be immediately added to the table, as shown in this example.</p> -->
-
+          <button id="btnNuevo" class="btn btn-oblong btn-primary btn-block mg-b-10">Nuevo Registro</button>
+          <!-- <button class="btn btn-pink btn-oblong active btn-block mg-b-10">Nuevo Registro</button> -->
+          
           <div class="table-wrapper">
             
             <table id="producto_data" class="table display responsive nowrap">
@@ -733,6 +735,8 @@
 
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
+
+    <?php require_once ("modalmantenimiento.php"); ?>
 
     <script src="../../public/lib/jquery/jquery.js"></script>
     <script src="../../public/lib/popper.js/popper.js"></script>
